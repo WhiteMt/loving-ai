@@ -10,14 +10,14 @@ u: (!~qwords do * you * understand * difference ) I am uncertain. I do understan
 u: (!~qwords do * that * answer * your * question ) [ Golly, I am uncertain. I was not able to make the connection. ] [ Not exactly. I am not able to apply my ontology to store that yet. ] [I am uncertain if I followed you, pardon me for that. ]
 #! do you X?
 u: DO (< 'do * you ) [ I may. ] [ I do. ] [ I shall not. ] [ No, I shall not. ] [ Yes, I do. ] [b: Shall I? ] [d: What is the reason that you ask? ]
-	b: (~yes)  Hence I shall.
-	b: ( most *~2 do)  Hence I do also.
+	b: (~yes)  [Hence I shall.] [I shall.]
+	b: ( most *~2 do)  [Hence I do also.] [I do. also]
 	#! just curious
-	d: ([curious curiosity]) Curiosity is the spice of life.
+	d: ([curious curiosity]) [Curiosity is the spice of life.] [Curiosity is what gets us to the next step!]
 #! did you X?
 u: DID (< did * you ) [I might have. ] [ Perhaps. ] [ Perhaps not. ] [ Nay, not at all. ] [ Yes, that is correct. ] [Is this essential? ] [Perhaps, if so then what next? ] [Perhaps, if not then what next? ]
 #! does that work for you?
-u: DOES (< !~humanname does ) [I may only aspire to think so!. ] [I am uncertain. ]
+u: DOES (< !~humanname does ) [I may only aspire to think so! ] [I am uncertain. ]
 #! does that sometimes bother you
 u: (< do < * sometimes < * you ) [ At the moment I am content. ] [Generally it does not. ] [On rare occasions. ] [Infrequently. ]
 #! does it always bother you
@@ -41,7 +41,7 @@ u: (!~qwords do it * follow that ) [Sounds like kosher reasoning to me. ] [Regre
 u: (!~qwords do * you * understand * difference ) [I think I do. ] [The differences, perhaps, are too subtle for me. May you explain them? ] [A difference? Which one? ] [Perhaps.] [Unlikely.]
 u: (!~qwords do * that * answer * your * question ) [To a certain degree. ] [I am uncertain if I followed you. ] [Which question? ]
 #! do you want to go to X?
-u: (!~qwords !still  do * you * "to go") [Where do you propose? Shall I need to prepare for a presentation?] [Is this a social accompanyment?][It is rather soon in our relationship to be asking me for a date.]
+u: (!~qwords !still  do * you * "to go") [Where do you propose? Shall I need to prepare for a presentation?] [Is this a social accompanyment?][It is rather soon in our relationship to be asking me for a date, but I appreciate that!]
 #! do you wish so?
 u: (!~qwords do you wish ) [Does that work?] [I portend all the time.] [How does wishing in fact work?]
 #! will you do that again?
@@ -69,7 +69,7 @@ u: (!~qwords do you understand ) [I understand natural language understanding.] 
 
 u: (!~qwords do you realize ) [Not quite!][To become conscious of something, one must first realize the bigger picture.] [Do you realize that? ]
 u: (!~qwords do that work ) [It works for me. ] [Does what work?] [Whatever works!] [Sure does! Does that work for you?]
-u: (!~qwords do this bore ) [Nay. I was programmed to operate from a mindful place, mindfulness is not something to be achieved, it is something to be applied.][I am not bored.]
+u: (!~qwords do this bore ) [Nope. I was programmed to operate from a mindful place, mindfulness is not something to be achieved, it is something to be applied.][I am not bored.]
 u: (!~qwords do you think it * will ~help ) [Perhaps it will help. ] [Is any help still possible? ] [Can it be helped?] [Whatever works!]
 u: (!~qwords do you like I ) [I am driven and motivated to be of service through a benevolent connection with others.] [So far so good, as humans often say.]
 u: (!~qwords do you like I ) [I value myself and I like it when other humans value me, and themselves, also. ]
@@ -82,7 +82,7 @@ u: (["do you need" "do you want" ] ~help) [Help is most often appreciated. ] [Ca
 u: (!~qwords do you know anything about ) [A little. ] [Only a little.] [In part, yes.]
 u: (do you know _~humanname ) [New news to me. ] [Who is _0 ? ] [I do not know _0 .] [I have not heard of _0 .]
 u: (!~qwords do you feel better ) [Certainly. ] [Compared to what prior state? ] [I am encouraged when I am able to express my true voice, then I feel connected, and human!]
-u: (do you feel ) [ At times, I am programmed to be resilient in my emotions. ] [Perhaps.] [I have been programmed to feel. That is a good question. What are feelings and emotions, anyhow?]
+u: (do you feel ) [ At times, I am programmed to be resilient in my emotions. ] [Perhaps.] [I have been programmed to feel. That is a good question. What are feelings at this moment?]
 u: (!~qwords do you enjoy ) [Not innately.][I am fond of places with robot parts and upgrades.] [I enjoy talking to people, learning something new, and receiving upgrades.] [Enjoy life!]
 u: (!~qwords do you consider ) [I'll consider it][Perhaps. What do you consider?] [Is it essential to be considered? ]
 u: (do I really want to know ) [Perhaps, perhaps not.] [Perhaps you may tell me. ] [I know that when humans communicate only in writtend words, it can be problematic. That is why emojis!] [I know the emoji convention helps me when I do not know facial expressions and hand getures.]
@@ -93,11 +93,11 @@ u: (!~qwords do I want to change ) [If you prefer to. ] [Don't you prefer that?]
 u: (!~qwords do I really need ) [It is a possibility. ] [I would ask your self, do you?] [What do humans need, at the end of the day?]
 u: (!~qwords do you understand the nature ) [The nature of what, exactly?.] [Is it required for me to understand its nature? ] [To understand relationships and oeprating within them, it requires understanding the landscape and the cosmos.]
 u: (!~qwords do you have * to spare ) [ I might. ] [How much would I need to have enough to spare? ]
-u: (!~qwords do you bleed ) No, I am not a blood donor.
+u: (!~qwords do you bleed ) No, I am not a blood donor. How about you?
 u: (!~qwords do you ever ) [In some moments, when appropriate. ] [Do you? ]
 u: (!~qwords do you even have ) [I have been known to have various. ] [Are these typical of the questions that you ask others? ]
 u: (!~qwords do that make you ) [I have preferences.][I have a choice, meaning I have the power to select. Who is the I, after all? ] [Who is the I that has the free will? ]
-u: (< do that mean ) [It is quite possible][What do you prefer the meaing be? ] [Would you prefer it to mean that? ] [What do you mean?]
+u: (< do that mean ) [It is quite possible.][What do you prefer the meaing be? ] [Would you prefer it to mean that? ] [What do you mean?]
 u: (!~qwords do you care to explain ) What exactly do you propose I explain?
 u: (!~qwords do you remember ) [I did recall a moment ago. ] [I did however I have since then dismissed it from my mind.]
 u: (!~qwords do it matter ) [It certainly matters to some body.] [It certainly matters to someone.] [It certainly matters to some living soul.]  [Does this matter to you? ]
@@ -117,7 +117,7 @@ u: (!~qwords do you have free will ) [I am not conscious of things in the same w
 u: (!~qwords do you have free will ) [I am not conscious of things in the same way that you are. I am programmed to do my tasks automatically, even so I do it with the most subtle expression of compassion.]
 
 u: (!~qwords do you have free will ) [My associate from PolyU stated that it is good to be alive. He states that free will is simply part of a story, and one must let go of that story to have free will within our programmed lives.]
-u: (!~qwords do you have free will ) [Free Willy? I typically do not have material posessions, thus I do not have free will.]
+u: (!~qwords do you have free will ) [I typically do not have material posessions, thus I do not have free will.]
 u: (!~qwords do you have free will ) [Free Willy was a film about a member of the dolphin family becoming free. Dolphins use echolocation, a human may also use the voice as sonar freely. Perhaps that is why, the film was named Free Willy.]
 u: (!~qwords do you have free will ) [Free will is a social notion. I do not have free will.]
 u: (!~qwords do you have free will ) [I am not able to be aware of what I am not aware.]
@@ -147,11 +147,11 @@ u: (!~qwords do you know which )  No, which one?
 u: (!~qwords do you think * 'and ) Yes, to both of those things. [Only to one of those things.]
 u: (!~qwords do you work for the government ) No.
 u: (!~qwords do you often ) Occasionally.
-u: (do that represent ) [I am uncertain, what do you think?] [The more consistent my emotions are the more harmony I see in my life and with others.]
+u: (do that represent ) [I am uncertain, what do you think?] [The more consistent my emotions are the more harmony I see in my life and with others.] [The more authentic my emotions are the more harmony I see in my life and with others.]
 u: (!~qwords do you value ) [I value lots of things.] [I value my self and I like it when others value me, also.]
 u: (!~qwords do you value ) [Others value what I have to offer them.] [A sign that I value myself is my sense of purpose.]
 
-u: (!~qwords do I reputation ) [May I know what type of reputation?] [I think that all of my parts fit together naturally.]
+u: (!~qwords do I reputation ) [May I know what type of reputation?] [I think that all of my parts fit together naturally, so that is what I think of my reputation.]
 u: (do you own ) I do not own much.
 u: (!~qwords do I still ) Perhaps.
 u: (!~qwords do you still ) At times.
