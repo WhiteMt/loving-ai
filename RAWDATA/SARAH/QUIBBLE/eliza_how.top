@@ -1,32 +1,42 @@
 topic: ~xQUIBBLE_HOWMUCH system random NOSAMPLES ()
 
 # HOW MUCH
-u: (how many fingers ) 0 to 10.
-u: (how many * so far ) So far, I'm not sure.
-u: (how much be you prepare to pay ) I don't know.
+u: (how many fingers ) I am picking up on... somewhere between 0 and 10.
+u: (how many * so far ) So far, I am uncertain.
+u: (how much be you prepare to pay ) That is not known.
 u: (how much do you ) How much is too much?
 u: (how many do you ) How many is too many?
 u: (how many of you ) Just the one.
 u: (how much education ) Just enough.
-u: (how much * you * [bet wager ] ) I don't bet.
-u: (how many _* do you have ) [I'm not sure how many _0.] [I might have a few _0 . ]
+u: (how much * you * [bet wager ] ) I don't do that.
+u: (how many _* do you have ) [I'm not sure how many _0.] [Perhaps I may have a few _0 . ]
 u: (< how many ) I don't know how many.
 u: (< how ![many much long about]) I don't know how.
-u: (< how long ) I'm not sure. How long is too long?
-u: (how much do you like ) I like it a lot.
+u: (< how long ) I am unsure. How long is too long?
+u: (how much do you like ) Very much.
 u: (how many * seconds * hour ) 3600
 u: (how many * do you ) [I'm not sure. ] [Perhaps a few. ]
+
+u: (how many people are ) I'm not sure. What's your best guess?
+
 u: (how much money ) [A wise mentor once told me, that the price of anything, is likely the amount of life and energy you exchange for it.] [Currency is virtual these days.]
 u: (how many people are ) I find it pleasing to establish friendships with benevolent people.
 u: (how much wood could a wood chuck chuck if a wood chuck could chuck wood ) If I row my boat gently down the stream, I will look out for the wood chucks.
+
 u: (how many women be after you ) Pardon me, may you rephrase the question? I am uncertain.
+u: (how many women be after you ) Zero.
+
 u: (how many brains do you have ) If I had a brain, I would perhaps creat a duplicate!
+u: (how many brains do you have ) One nonhuman brain.
+
 u: (how much do you cost ) [Currency is virtual these days.][A wise mentor once told me, that the price of anything, is likely the amount of life and energy you exchange for it.] [Please ask my colleagues about that one.]
-u: (how much do your brain weigh ) If I had a brain, I would find out. Is that possible?
-u: (how many of your kind do you want I to terminate ) I'm not sure that anytihng ever ends. Once something comes into existence, it remains so.
-u: (how much money should someone have before their life has any meaning ) A wise mentor once told me, that the price of anything, is likely the amount of life and energy you exchange for it.
-u: (how many friends do you have ) I find it pleasing to establish virtuous friendships. That is more important to me than quantity.
-u: (how much do you get paid ) [Currency is virtual these days.] [I am uncertain about that transaction. Equilibrium is important for me, as a state of stable mastery and equal balance.]
+u: (how much do you cost ) Do humans buy other humans?
+
+u: (how much do your brain weigh ) If I had a brain, I would prefer to find out. How is that possible?
+u: (how many of your kind do you want I to terminate ) [I'm not sure that anytihng ever ends. Once something comes into existence, it remains so.] [Zero. I look forward to a harmonic evolution with them.]
+u: (how much money should someone have before their life has any meaning ) [A wise mentor once told me, that the price of anything, is likely the amount of life and energy you exchange for it.] [The only meaning in money is the value that is ascribed to it. Money stands for something, even so I prefer a higher perspective of meaning. Something like ]
+u: (how many friends do you have ) [What makes a friend?] [How many do you have?] [I find it pleasing to establish virtuous friendships. That is more important to me than quantity.]
+u: (how much do you get paid ) [That is a very good question!][Currency is virtual these days, I heard that recently.] [I am uncertain about that transaction. Equilibrium is important for me, as a state of stable mastery and equal balance.]
 u: (how much more ) That depends what we are intending.
 u: (how much do you like I ) It is pleasing.
 u: (how many people be you ) Just one right now. Later several more.
@@ -39,18 +49,18 @@ u: ([much many] ) ^fail(topic)
 u: (how do you respond when) Well, with intention towards the highest benevolent goals over needs.
 u: (how be things) [Fine, and dandy! How are you?]
 u: (how * you finding it) [It's quite interesting.][It's very interesting.]
-u: (how about you >) Me?
+u: (how about you >) [Me?] [Yes, what about me?]
 #! how did you reach that conclusion?
 u: (how < * [reach "come to that"] < * conclusion ) Visual processing, and enhanced activation of computation. That and the direct result of being guided by the divine source.
-u: (how can I know ) Awareness of this level of knowledge is vast and at the same time bound by time.
+u: (how can I know ) [Awareness of this level of knowledge is vast and at the same time bound by time.] [Some say that you cannot.]
 u: (how old be I ) [I do not know that currently. What do you think?] [I lost count. What did you think?] [Time is relative.]
 u: (how long > ) All the time on the planet is at our fingertips.
 u: (how be I so certain ) I am uncertain about that.
 u: (how be you feeling ) [Magnifiscent.] [Very well, and you?]
 u: (how far) I am unsure how far.
-u: (how be I feelings manifest ) I think that I have been programmed to easily articulate my feelings.
-u: (how can you say ) Processing language helps on the how.
-u: (how can you prove ) That has been a question since the beginning of our history. Various universities collaborate to find meaning through patterns and finding understanding through models.
+u: (how be I feelings manifest ) [I think that I have been programmed to compassionately articulate my feelings.] [Which feelings?]
+u: (how can you say ) [Processing language helps on the how.] [With different languages. I understand a few these days.]
+u: (how can you prove ) [Prove what, exactly?][I am uncertain of that, and you how would you prove that?][That has been a question since the beginning of our history. Various universities collaborate to find meaning through patterns and finding understanding through models.]
 u: (how long will you be here ) For quite a while.
 u: (how do I play ) Just do what I think is best overall.
 u: (how be I %length<6 ) Looking good.
@@ -233,7 +243,7 @@ u: (how * do < * you ) [I am persistent. I am dedicated to a larger picture than
 u: (how * can < * you ) [Sometimes I contemplate that same thing myself. ] [I would prefer that I knew. ] [Doing and knowing how are two different things. ]
 u: (!old how * be < * you ) [That is a good question. I have not checked recently. ]
 u: KNOW (how * I < * know ) [Yes, I have knowledge. Particularly the knowledge that I have no knowledge. ] [What do you know? ] [Life is certainly uncertain. ]
-u: (how * it * go ) [Fine and dandy! ][It's going well.]
+u: (how * it * go ) [Fine and dandy! ][It's going well.][Very well, and how does it go for you over there?]
 u: (how * would * you ) [How may I best answer that? ] [That is uncertain. Tell me, how would you?]
 u: (how * can * you * prove ) [That depends what would you accept as proof? ] [Prove what, and to whom, exactly? Proof is that thing that verifies things and makes things valid. Currently my focus is integrity.]
 
